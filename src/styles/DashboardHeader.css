@@ -1,0 +1,65 @@
+.dashboardHeader {
+    background: #fff;
+    padding: 20px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboardHeader .dashboardTitle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.dashboardHeader .dashboardTitle h6 {
+    color: #3B3C3B;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-right: 24px;
+}
+
+.searchWrap {
+    position: relative;
+    margin: 0;
+}
+
+.searchWrap svg {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #B9B9B9;
+    pointer-events: none;
+}
+
+.searchWrap input {
+    width: 344px;
+    height: 40px;
+    padding-left: 48.28px !important;
+    background: transparent;
+}
+
+.dashboardHeader .dashboardRight {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.dashboardRight .selectWrap {
+    margin-right: 16px;
+}
+
+.dashboardRight .selectWrap select.form-select {
+    height: 32px;
+    text-transform: uppercase;
+}
+
+.dashboardRight .languageSelector {
+    margin-right: 20px;
+}

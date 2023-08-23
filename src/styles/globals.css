@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './Form.css';
+@import './Sidebar.css';
+@import './TableTabs';
+@import './DataTable.css';
+@import './ModalPopup.css';
+
+@import './SplashScreen.css';
+@import './Registration.css';
+@import './ForgotPassword.css';
+@import './SetNewPassword.css';
+@import './CheckMail.css';
+@import './ResetPassword.css';
+@import './Dashboard.css';
+@import './DashboardHeader.css';
+@import './LanguageSelector.css';
+@import './NotificationsDropdown.css';
+@import './ProfileDropdown.css';
+@import './AddNewFund.css';
+@import './ManageFund.css';
+@import './ExcelUploader.css';
+@import './JPGImageUploader.css';
+@import './DashboardCard.css';
+@import './DownloadDropdown.css';
+@import './Pagination.css';
+@import './SortDropdown.css';
+@import './Notifications.css';
+@import './Profile.css';
+@import './SettingSidebar.css';
+@import './UpdatePassword.css';
+@import './UpdateAccountDetail.css';
+@import './TermCondition.css';
+@import './SecurityPrivacy.css';
+@import './ViewSupport.css';
+@import './ChatBox.css';
+@import './Support.css';
+@import './Wallet.css';
+@import './BankAccountCard.css';
+@import './TransactionDetails.css';
+
+/* SF Pro Display Font */
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../../public/fonts/SFProDisplay-LightItalic.woff2') format('woff2'),
+      url('../../public/fonts/SFProDisplay-LightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../../public/fonts/SFProDisplay-Regular.woff2') format('woff2'),
+      url('../../public/fonts/SFProDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../../public/fonts/SFProDisplay-SemiboldItalic.woff2') format('woff2'),
+      url('../../public/fonts/SFProDisplay-SemiboldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../../public/fonts/SFProDisplay-Medium.woff2') format('woff2'),
+      url('../../public/fonts/SFProDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../../public/fonts/SFProDisplay-ThinItalic.woff2') format('woff2'),
+      url('../../public/fonts/SFProDisplay-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../../public/fonts/SFProDisplay-UltralightItalic.woff2') format('woff2'),
+      url('../../public/fonts/SFProDisplay-UltralightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../../public/fonts/SFProDisplay-BlackItalic.woff2') format('woff2'),
+      url('../../public/fonts/SFProDisplay-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../../public/fonts/SFProDisplay-Bold.woff2') format('woff2'),
+      url('../../public/fonts/SFProDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../../public/fonts/SFProDisplay-HeavyItalic.woff2') format('woff2'),
+      url('../../public/fonts/SFProDisplay-HeavyItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* SF Pro Display Font */
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body html {
+  scroll-behavior: smooth;
+}
+
+body,
+textarea,
+input {
+  padding: 0;
+  margin: 0;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #3B3C3B;
+  font-family: 'Inter', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/* font-family: 'Readex Pro', sans-serif; */
+
+.general-btn {
+  border-radius: 6px;
+  padding: 5px 15px;
+  background: #333366;
+  border: 1px solid #333366 !important;
+  height: 44px;
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+  font-family: "Readex Pro";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px; 
+  transition: 0.3s all ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.general-btn svg {
+  font-size: 24px;
+  color: inherit;
+}
+
+.general-btn:hover {
+  background: transparent !important;
+  color: #333366 !important;
+}
+
+.tranparent-gray-btn {
+  border-radius: 6px;
+  padding: 5px 15px;
+  background: #FFF !important;
+  border: 1px solid #B9B9B9 !important;
+  height: 44px;
+  width: 100%;
+  color: #B9B9B9;
+  text-align: center;
+  font-family: "Readex Pro";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px; 
+  transition: 0.3s all ease;
+}
+
+.tranparent-gray-btn:hover {
+  background: #B9B9B9 !important;
+  color: #fff !important;
+}
+
+.general-tranparent-btn {
+  border-radius: 6px;
+  padding: 5px 15px;
+  background: transparent !important;
+  border: 1px solid #333366 !important;
+  height: 44px;
+  width: 100%;
+  color: #333366 !important;
+  text-align: center;
+  font-family: "Readex Pro";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px; 
+  transition: 0.3s all ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.general-tranparent-btn svg {
+  font-size: 24px;
+  color: inherit;
+}
+
+.general-tranparent-btn:hover {
+  background: #333366 !important;
+  color: #fff !important;
+}
+
+.general-tranparent-btn img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.general-tranparent-btn .white-icon {
+  display: none;
+}
+
+.general-tranparent-btn:hover .white-icon {
+  display: block;
+}
+
+.general-tranparent-btn:hover .blue-icon {
+  display: none;
+}
+
+
+h2 {
+  color: #3B3C3B;
+  font-family: "Readex Pro";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.2225;
+}
+
+h3 {
+  color: #3B3C3B;
+  font-family: "Readex Pro";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3335;
+}
+
+h4 {
+  color: #3B3C3B;
+  font-family: "Readex Pro";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.27273;
+}

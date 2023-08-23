@@ -1,0 +1,155 @@
+.notificationsDropdown {
+    position: relative;
+    margin-right: 24px;
+}
+
+.notificationsDropdown button {
+    background: transparent !important;
+    padding: 0;
+    border: 0;
+}
+
+.notificationsDropdown button svg {
+    font-size: 24px;
+    color:#333366;
+}
+
+.notificationsDropdown button::after {
+    display: none;
+}
+
+.notificationsDropdown .dropdownMenu {
+    min-width: 363px;
+    border-radius: 6px;
+    background: #FFF;
+    padding: 0;
+    left: auto !important;
+    right: -32px !important;
+    margin: 16px 0 0 !important;
+    border: 0;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+}
+
+.notificationsDropdown .dropdownMenu:after {
+    content: "";
+    background: url(../../public/images/polygon.svg) center center no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -12.47px;
+    right: 30px;
+    width: 31px;
+    height: 22.667px;
+}
+
+.dropdownMenu .notiHeading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 12px 11px 10px;
+    border-radius: 6px 6px 0px 0px;
+    background: #333366;
+}
+
+.dropdownMenu .notiHeading h6 {
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+}
+
+.notificationsDropdown .notifications {
+    padding-bottom: 4px;
+}
+
+.notificationsDropdown .notifications li {
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.notificationsDropdown .notifications li a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 12px 11.5px 8px 11.5px;
+}
+
+.notifications li .notiImg {
+    width: 30px;
+}
+
+.notifications li .notiImg img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #F5F5F5;
+    border-radius: 50%;
+}
+
+.notifications li .notiImg span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    background: #333366;
+}
+
+.notifications li .notiContent {
+    width: calc(100% - 30px);
+    padding-left: 10px;
+}
+
+.notifications li .notiContent h6 {
+    color: #3B3C3B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.notifications li .notiContent p {
+    color: #8C8C8C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.notifications li .notiContent p span {
+    color: #E20000;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.notifications li .notiContent span {
+    color: #8C8C8C;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.dropdownMenu .viewAllBtn {
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 0 0 6px 6px;
+}
+
+.dropdownMenu .viewAllBtn button,
+.dropdownMenu .viewAllBtn a {
+    border: 0;
+    background: transparent !important;
+    outline: unset !important;
+    box-shadow: unset !important;
+    color: #333366;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}

@@ -1,0 +1,73 @@
+.downloadDropdown {
+    position: relative;
+}
+
+.downloadDropdown>button {
+    background: #333366!important;
+    padding: 9.2px 14px;
+    border: 0;
+    color: #ffffff !important;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #333366 !important;
+    gap: 10px;
+    transition: 0.4s all ease;
+}
+
+.downloadDropdown>button:hover {
+    background: transparent !important;
+    color: #333366 !important;
+}
+
+.downloadDropdown>button:hover svg:last-child {
+    border-left-color: #333366!important;
+}
+
+.downloadDropdown>button svg {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.downloadDropdown>button svg:last-child {
+    width: 36px;
+    padding-left: 12px;
+    border-left: 2px solid #ffffff;
+}
+
+.downloadDropdown button::after {
+    display: none;
+}
+
+.downloadDropdown .dropdownMenu {
+    min-width: 196px;
+    background: #ffffff;
+    border: 0;
+    left: auto !important;
+    right: 0 !important;
+    margin: 5px 0 !important;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+    padding: 8px 0;
+}
+
+.downloadDropdown .dropdownMenu button {
+    color: #3B3C3B;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px; 
+    padding: 4px 12px;
+    background: transparent !important;
+    transition: 0.4s all ease;
+}
+
+.downloadDropdown .dropdownMenu button:hover {
+    color: #fff;
+    background: #333366 !important;
+}

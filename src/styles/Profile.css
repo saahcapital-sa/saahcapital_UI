@@ -1,0 +1,126 @@
+.settingWrap h3 {
+    margin-bottom: 16px
+}
+
+.settingRow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.settingRow .settingSidebarCol {
+    width: 168px;
+}
+
+.settingRow .settingContentCol {
+    width: calc(100% - 168px);
+    padding-left: 24px;
+}
+
+.editProfileCard {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+    padding: 16px 24px 22px 40px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.editProfileCard::before {
+    content: "";
+    border-radius: 8px 0 0 8px;
+    width: 81px;
+    height: 100%;
+    background: #333366;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.editProfileCard .editProfileContentWrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.editProfileCard .editProfileImg {
+    width: 85px;
+    height: 85px;
+    position: relative;
+}
+
+.editProfileCard .editProfileImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid #F5F5F5;
+}
+
+.editProfileCard .editProfileImg button {
+    border: 0;
+    outline: unset;
+    position: absolute;
+    right: 5px;
+    bottom: -6px;
+    z-index: 1;
+    border-radius: 18px;
+    background: #FFF !important;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.07);
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.editProfileCard .editProfileImg button svg {
+    font-size: 18px;
+    color: #4E4E4E;
+}
+
+.editProfileCard .editProfileContent {
+    width: calc(100% - 85px);
+    padding-left: 12px;
+}
+
+.editProfileCard .editProfileContent h6 {
+    color: #434656;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 6px;
+}
+
+.editProfileCard .editProfileContent p {
+    color: #8C8C8C;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+}
+
+.editProfileCard > .editProfileBtn {
+    padding: 0;
+    border: 0;
+    background: transparent !important;
+    outline: unset !important;
+    color: #3B3C3B !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+.editProfileCard > .editProfileBtn svg {
+    font-size: 20px;
+    margin-right: 8px;
+    color: #333366;
+    margin-top: 1px;
+}

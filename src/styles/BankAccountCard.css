@@ -1,0 +1,139 @@
+.bankAccounts {
+    margin-bottom: 24px;
+}
+
+.bankAccountHeading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.bankAccountHeading h4 {
+    color: #3B3C3B;
+    font-family: "Readex Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3334;
+}
+
+.bankAccountHeading button {
+    width: auto;
+}
+
+.bankCardDetail {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px 24px;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+}
+
+.cardDetailRow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cardDetail {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cardDetail .cardDetailImg {
+    border-radius: 9px;
+    border: 1.5px solid #D9D9D9;
+    background: #FFF;
+    width: 90.8px;
+    height: 59.6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardDetail .cardDetailImg img {
+    width: 58.395px;
+    height: 34.255px;
+}
+
+.cardDetail .cardDetailContent {
+    padding-left: 16px;
+}
+
+.cardDetail .cardDetailContent h6 {
+    color: #818181;
+    font-size: 16.6px;
+    font-weight: 500;
+    line-height: 22.2px;
+    margin-bottom: 5.5px;
+}
+
+.cardDetail .cardDetailContent p {
+    color: #0E0D13;
+    font-size: 16.6px;
+    font-weight: 500;
+    line-height: 22.2px;
+}
+
+.bankCardBtn {
+    display: flex;
+    align-items: center;
+    gap: 13.4px;
+}
+
+.bankCardBtn .editBtn {
+    color:  #3B3C3B !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 11.5px 18.75px;
+    border-radius: 8px;
+    background: #F3F3F3 !important;
+    border: 0;
+    box-shadow: unset;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bankCardBtn .deleteBtn {
+    color:  #333366 !important;
+    border-radius: 8px;
+    background: #FFF4F2 !important;
+    border: 0;
+    box-shadow: unset;
+    padding: 11.5px 18.75px;
+    display: inline-flex;
+}
+
+.bankCardBtn .editBtn svg,
+.bankCardBtn .deleteBtn svg {
+    color: inherit;
+    font-size: 21px;
+}
+
+.bankCardDetail ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    column-gap: 100px;    
+    row-gap: 15px;
+}
+
+.bankCardDetail ul li h6 {
+    color:  #818181;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px; 
+}
+
+.bankCardDetail ul li p {
+    color: #0E0D13;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+}

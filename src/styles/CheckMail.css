@@ -1,0 +1,26 @@
+.checkMail.forgotWrap .signFormCard p b {
+    display: block;
+}
+
+.checkMail.forgotWrap .signFormCard .cardIcon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+}
+
+.signFormCard span .resendBtn {    
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #3454CF !important;
+    background: transparent !important;
+    border: 0;
+    padding: 0;
+    display: contents;
+}
+
+.checkMail.forgotWrap .signFormCard span {
+    margin: 20px 0 30px;
+}

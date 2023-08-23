@@ -1,0 +1,8 @@
+.SupportCard  {
+    margin-top: -56.5px;
+}
+
+.SupportCard .tableFilterWrap {
+    margin-bottom: 12.5px;
+    justify-content: flex-end;
+}

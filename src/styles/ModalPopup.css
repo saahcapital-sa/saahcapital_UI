@@ -1,0 +1,182 @@
+.generalModal .modal-dialog {
+    max-width: 1158px;
+    margin-left: auto !important; 
+    margin-right: auto !important;
+    padding: 0 15px; 
+}
+
+.generalModal .modal-content {
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+    border: 0;
+}
+
+.generalModal .modal-header {
+    background: transparent !important;
+    border: 0;
+    border-bottom: 1px solid #B9B9B9;
+    border-radius: 6px 6px 0 0;
+    padding: 24.3px 24px 22.7px;
+}
+
+.generalModal .modal-header .btn-close {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    opacity: 1;
+    box-sizing: border-box;
+    background: url(../../public/images/closeIcon.svg) center center no-repeat;
+    background-size: contain;
+    padding: 0;    
+    margin: 0 0 0 auto;
+}
+
+.generalModal .modal-header .modal-title {
+    color: #3B3C3B;
+    font-family: "Readex Pro";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.2857;
+}
+
+.generalModal .modal-body {
+    padding: 24px;
+    border-radius: 0 0 6px 6px;
+    box-shadow: unset;
+}
+
+.generalModal .customform {
+    margin: 0;
+}
+
+.totalPayableWrap {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.totalPayableWrap .totalPayable {
+    display: inline-flex;
+    padding: 10.2px 21px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 6px;
+    border: 1px solid #B9B9B9;
+}
+
+.totalPayableWrap .totalPayable p {
+    color: #3B3C3B;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.totalPayableWrap .totalPayable h3 {
+    color: #336;
+    margin: 0 !important;
+}
+
+.loadingModal.generalModal .modal-dialog,
+.successModal.generalModal .modal-dialog  {
+    max-width: 549px;
+    margin-left: auto !important; 
+    margin-right: auto !important;
+    padding: 0 15px; 
+}
+
+.loadingModal.generalModal .modal-content,
+.successModal.generalModal .modal-content {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.loadingModal.generalModal .modal-body {
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: unset;
+    padding: 48px 40px 55px;
+}
+
+.successModal.generalModal .modal-header {
+    padding: 12px;
+    border: 0;
+}
+
+.successModal.generalModal .modal-body {
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: unset;
+    padding: 11px 62px 39px;
+}
+
+.loadingModal.generalModal .loader {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto 20px;
+    animation: rotate 1.8s infinite linear; 
+}
+
+.successModal.generalModal .modal-body img {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto 24.5px; 
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+ 
+
+ @-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+.loadingModal.generalModal h6,
+.successModal.generalModal h6 {
+    color: #3B3C3B;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    max-width: 340px;
+    margin: 0 auto 8px;
+}
+
+.loadingModal.generalModal p,
+.successModal.generalModal p {
+    color: #8C8C8C;
+    text-align: center;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.successModal.generalModal p {
+    margin-bottom: 33.5px;
+}
+
+.successModal.generalModal .modal-body .general-btn {
+    max-width: 340px;
+    margin: 0 auto;
+}

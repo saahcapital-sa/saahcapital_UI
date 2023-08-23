@@ -1,0 +1,237 @@
+.chatBoxCard {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+    padding: 24px 24px 16px;
+}
+
+.chatHeader {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.chatHeader>img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.chatHeader>span {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5px;
+    background: #333366;
+}
+
+.chatHeaderContent {
+    width: calc(100% - 36px);
+    padding-left: 12px;
+}
+
+.chatHeaderContent h6 {
+    color: #2C2E3E;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+
+.chatHeaderContent ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatHeaderContent ul li {
+    color: #8C8C8C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    margin-right: 12px;
+}
+
+.chatHeaderContent ul li::after {
+    content: "|";
+    color: #8C8C8C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    padding-left: 12px;
+}
+
+.chatHeaderContent ul li:last-child {
+    margin: 0;
+}
+
+.chatHeaderContent ul li:last-child::after {
+    display: none;
+}
+
+.chatBox {
+    overflow-x: auto;
+    height: 450px;
+    margin: 15px -10px 15px 0;
+    padding-right: 12px;
+}
+
+.chatBox::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+
+.chatBox::-webkit-scrollbar {
+	width: 8px;
+}
+
+.chatBox::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #333366;
+}
+
+
+.message {
+    display: flex;
+    align-items: flex-start;
+    width: 77.5%;
+    margin-top: 16px;
+}
+
+.message:first-child {
+    margin-top: 0;
+}
+
+.message .messageImg {
+    display: flex;
+    flex-direction: column;
+    width: 56px;
+    align-items: center;
+}
+
+.messageImg img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 8px;
+    display: block;
+}
+
+.messageImg span {
+    color: #8C8C8C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.messageImg span:last-child {
+    margin-bottom: 0;
+}
+
+.message .messageText {
+    width: calc(100% - 56px);
+    padding-left: 22px;
+}
+
+.message .messageText p {
+    color: #3B3C3B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    padding: 18px 16px;
+}
+
+.message.message-recevive .messageText p { 
+    background: #fdf0f0;
+    border-radius: 0 12px 12px 12px;
+}
+
+.message.message-send {
+    flex-direction: row-reverse;
+    margin-left: auto;
+}
+
+.message.message-send .messageText {
+    padding-left: 0;
+    padding-right: 22px;
+}
+
+.message.message-send .messageText p { 
+    background: #eaf7ff;
+    border-radius: 12px 0 12px 12px;
+}
+
+.chatForm {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #E9E9E9;
+    border-radius: 2px;
+    padding-top: 16px;
+    gap: 16px;
+}
+
+.chatForm input {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0 10px;
+    color: #3B3C3B;
+    height: 40px;
+    border: 0;
+    background: transparent;
+    box-shadow: unset !important;
+    width: 100%;
+}
+
+.chatForm input::placeholder {
+    color: #8C8C8C;
+}
+
+.fileInput {
+    position: relative;
+}
+
+.fileInput input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+
+.fileInput svg {
+    color: #8C8C8C !important;
+    font-size: 24px;
+}
+
+.sendBtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333366 !important; 
+    border: 0;
+    box-shadow: unset !important;
+}
+
+.sendBtn img {
+    width: 22px;
+    height: 22px;
+}

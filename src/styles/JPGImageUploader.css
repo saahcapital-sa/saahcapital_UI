@@ -1,0 +1,36 @@
+.jpgDropzone {
+    border-radius: 4px;
+    border: 2px dashed  #B9B9B9;
+    background: #FFEBEE;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    padding: 16px 30px;
+    min-width: 446px;
+}
+
+.jpgDropzone p {
+    color: #232323;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.jpgDropzone p .upload-logo,
+.jpgDropzone p .uploaded-img {
+    color: #FF2400;
+}
+
+.jpgDropzone p .uploaded-img {
+    font-weight: 500;
+}
+
+.jpgDropzone p .onlyjpeg {
+    color: #8C8C8C;
+}
+
+.jpgDropzone p .error {
+    font-weight: 600;
+    color: #ff0000;
+}

@@ -1,0 +1,187 @@
+.customform {
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.customform label {
+    color: #3B3C3B;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.customform input.form-control,
+.customform select.form-select {
+    border-radius: 6px;
+    border: 1px solid #CDD2E1;
+    background: #FFF;
+    padding: 0 12px;
+    height: 44px;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.customform input.form-control[readonly] {
+    background: #F5F5F5;
+    border-color: #F5F5F5;
+    pointer-events: none;
+}
+
+.customform input.form-control::placeholder {
+    color: #C0C0C0;
+}
+
+.customform input.form-control:focus,
+.customform select.form-select:focus {
+    border-color: #333366;
+    box-shadow: unset;
+}
+
+.customform .selectWrap {
+    position: relative;
+}
+
+.customform .selectWrap select.form-select {
+    padding-right: 27px;
+}
+
+.customform .selectWrap svg {
+    font-size: 24px;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #818181;
+    pointer-events: none;
+    position: absolute;
+}
+
+.customform .form-check {
+    min-height: unset;
+    margin: 0;
+} 
+
+.customform .form-check .form-check-input {
+    margin-top: 2px;
+    border-radius: 3px;
+    box-shadow: unset;
+    border-color: #333366;
+}
+
+.customform .form-check .form-check-input:checked {
+    background-color: #333366;
+    border-color: #333366;
+}
+
+.customform .form-check label {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+} 
+
+.customform .inputWrap {
+    position: relative;
+}
+
+.customform .inputWrap input {
+    padding-right: 45px;
+}
+
+.customform .inputWrap svg {
+    font-size: 22px;
+    color: #B9B9B9;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.selectCountryCode {
+    display: flex;
+}
+
+.selectCountryCode .countryCode button {
+    border-radius: 6px 0 0 6px;
+    border: 1px solid #CDD2E1;
+    border-right: 0;
+    padding: 0;
+    padding-left: 12px;
+    height: 44px;
+    background: transparent !important;
+    white-space: nowrap;
+    width: 101px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3B3C3B !important;
+    text-align: left;
+}
+
+.selectCountryCode .countryCode button::after {
+    content: "";
+    background: url(../../public/images/arrow-down.svg) center center no-repeat;
+    background-size: contain;
+    width: 9.301px;
+    height: 5.302px;
+    border: 0;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.selectCountryCode .countryCode button:focus {
+    border-color: #333366;
+}
+
+.selectCountryCode .countryCode button img {
+    width: 20px;
+    margin-right: 2.5px;
+}
+
+.selectCountryCode .countryCode .dropdown-menu {
+    min-width: 100%;
+    padding: 0;
+    border-radius: 0 0 6px 6px;
+    border: 1px solid #CDD2E1;
+    overflow-x: auto;
+    max-width: 150px;
+}
+
+.selectCountryCode .countryCode .dropdown-menu a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3B3C3B;
+    padding: 5px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.selectCountryCode .countryCode .dropdown-menu a.active {
+    background: #333366;
+    color: #FFF;
+}
+
+.selectCountryCode .countryCode .dropdown-menu a:active {
+    background: rgba(14, 106, 64, 0.4);
+}
+
+.selectCountryCode .countryCode .dropdown-menu a img {
+    width: 20px;
+    margin-right: 2.5px;
+}
+
+.selectCountryCode input.form-control {
+    border-left : 0;
+    border-radius: 0 6px 6px 0;
+    padding-left: 0;
+    width: calc(100% - 101px);
+}

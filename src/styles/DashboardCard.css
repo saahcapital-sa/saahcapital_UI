@@ -1,0 +1,82 @@
+.dashboardCard {
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    min-height: 100%;
+}
+
+.dashboardCard .dashboardCardContent {
+    width: calc(100% - 48px);
+    padding-right: 5px;
+}
+
+.dashboardCard .dashboardCardContent h6 {
+    color: #3B3C3B;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.dashboardCard .dashboardCardContent .dashboardCardInner {
+    min-height: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.dashboardCardContent .dashboardCardInner p {
+    color: #3B3C3B;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.3334;
+    margin-bottom: 7px;
+}
+
+.dashboardCardContent .dashboardCardInner h5 { 
+    font-family: "Readex Pro";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.dashboardCardContent .dashboardCardInner h5 span {
+    color: #3B3C3B !important;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.dashboardCard.plus .dashboardCardInner h5,
+.dashboardCard.plus .dashboardCardInner p span {
+    color: #35B876;
+}
+
+.dashboardCard.minus .dashboardCardInner h5,
+.dashboardCard.minus .dashboardCardInner p span {
+    color: #E20000;
+}
+
+.dashboardCard .dashboardCardImg {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFEBEE;
+}
+
+@media (max-width: 1200px) {
+    .dashboardCard {
+        padding: 20px 16px;
+    }
+}

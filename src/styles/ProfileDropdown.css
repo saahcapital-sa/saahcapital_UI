@@ -1,0 +1,98 @@
+.profileDropdown {
+    position: relative;
+}
+
+.profileDropdown button {
+    background: transparent !important;
+    padding: 0;
+    border: 0;
+    color:#3B3C3B !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+}
+
+.profileDropdown button img {
+    width: 40px;
+    height: 40px;   
+    border-radius: 20px;
+    border: 1px solid #F5F5F5;
+    margin-right: 8px;
+}
+
+.profileDropdown button::after {
+    display: none;
+}
+
+.profileDropdown button svg:last-child {
+    font-size: 24px;
+    color: #3B3C3B;
+}
+
+.profileDropdown .dropdownMenu {
+    background: transparent;
+    min-width: 231px;
+    background: #ffffff;
+    border: 0;
+    padding: 0;
+    left: auto !important;
+    right: 0 !important;
+    margin: 10px 0 !important;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profileDropdown .dropdownMenu a.profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.profileDropdown .dropdownMenu a.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 38px;
+    border: 1px solid #F5F5F5;
+}
+
+.profileDropdown .dropdownMenu a.profile .profileinner {
+    width: calc(100% - 40px);
+    padding-left: 8px;
+}
+
+.profileDropdown .dropdownMenu a.profile h6 {
+    color: #3B3C3B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.profileDropdown .dropdownMenu a.profile span {
+    color:  #333366;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.profileDropdown .dropdownMenu a {
+    border-top: 1px solid #E9E9E9;
+    color: #3B3C3B;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    padding: 10px 28px;
+    background: transparent !important;
+}
+
+.profileDropdown .dropdownMenu a:first-child {
+    border-top: 0;
+}
+
+.profileDropdown .dropdownMenu a svg {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333366;
+}

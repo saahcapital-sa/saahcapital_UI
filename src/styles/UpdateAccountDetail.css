@@ -1,0 +1,83 @@
+.acccountDetailCard {
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+    padding: 24px;
+    margin-bottom: 16px;
+}
+
+.acccountDetailHeading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 24.5px;
+}
+
+.acccountDetailHeading h3 {
+    position: relative;
+    padding-bottom: 0;
+    padding-left: 18px;
+}
+
+.acccountDetailHeading h3::before {
+    content: "";
+    border-radius: 4px;
+    background: #333366;
+    height:100%;
+    width: 6px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.acccountDetailHeading .changePassword {
+    color: #333366 !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; 
+    border: 0;
+    background: transparent !important;
+    outline: unset !important;
+    padding: 0;
+}
+
+.acccountDetailHeading .changePassword:hover {
+    text-decoration: underline;
+}
+
+.acccountDetailContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: -24.5px;
+}
+
+.acccountDetailContent li {
+    display: flex;
+    align-items: flex-start;
+    width: 40.5%;
+    margin-bottom: 24.5px;
+}
+
+.acccountDetailContent li:nth-child(2n) {
+    width: 59.5%;
+}
+
+.acccountDetailContent li span {
+    color: #6F6C90;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-right: 32px;
+}
+
+.acccountDetailContent li p {
+    color:  #3B3C3B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: inline-block;
+}

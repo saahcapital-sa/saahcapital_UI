@@ -1,0 +1,53 @@
+.settingSidebar {
+    padding: 12px 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 0px 12px 0px rgba(52, 84, 207, 0.08);
+}
+
+.settingSidebar li {
+    padding: 10px 0;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.settingSidebar li:last-child {
+    border-bottom: 0;
+}
+
+.settingSidebar li:first-child {
+    padding-top: 0;
+}
+
+.settingSidebar li:last-child {
+    padding-bottom: 0;
+}
+
+.settingSidebar li a {
+    position: relative;
+    padding: 5.5px 5px 5.5px 16px;
+    color: #8C8C8C;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+}
+
+.settingSidebar li a.active {
+    color: #333366;
+}
+
+.settingSidebar li a::before {
+    content: "";
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    border-radius: 0px 6px 6px 0px;
+    background: transparent;
+    position: absolute;
+}
+
+.settingSidebar li a.active::before  {
+    background: #333366;
+}

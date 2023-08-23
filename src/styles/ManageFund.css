@@ -1,0 +1,42 @@
+.fundManage {
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+    padding: 24px;
+}
+
+.fundManage .heading-upload-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fundManage .customform>span {
+    color: #3B3C3B;
+    font-family: "Readex Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px; 
+    display: block;
+    text-align: center;
+    padding-top: 6px;
+    margin-bottom: 30px;
+}
+
+.fundManage .customform h3 {
+    margin-bottom: 24px;
+}
+
+.fundManage .customform .formBtn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    padding-top: 5px;
+}
+
+.fundManage .customform .formBtn button {
+    max-width: 185px;
+}

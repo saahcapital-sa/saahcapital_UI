@@ -1,0 +1,61 @@
+.languageSelector {
+    position: relative;
+}
+
+.languageSelector button {
+    background: transparent !important;
+    padding: 0;
+    border: 0;
+    text-transform: uppercase;
+    color:#434656 !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.languageSelector button svg {
+    font-size: 24px;
+    color: #333366;
+}
+
+.languageSelector button::after {
+    display: none;
+}
+
+.languageSelector button svg:last-child {
+    color: #3B3C3B;
+}
+
+.languageSelector .dropdownMenu {
+    background: transparent;
+    min-width: unset;
+    background: #FFEBEE;
+    border: 0;
+    padding: 12px 0;
+    left: auto !important;
+    right: 0 !important;
+    margin: 10px 0 !important;
+}
+
+.languageSelector .dropdownMenu a {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.311px;
+    color: #333366;
+    padding: 4px 20px;
+    background: transparent !important;
+}
+
+.languageSelector .dropdownMenu a:hover {
+    background: #333366 !important;
+    color: #fff;
+}
+
+.languageSelector .dropdownMenu a:last-child {
+    margin-bottom: 0;
+}

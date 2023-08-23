@@ -1,0 +1,29 @@
+.termConditionCard {
+    padding: 24px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+}
+
+.termConditionCard h4 {
+    padding-top: 4px;
+    margin-bottom: 8px;
+}
+
+.termConditionCard h4:first-child {
+    padding: 0;
+}
+
+.termConditionCard p {
+    color: #3B3C3B;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+
+.termConditionCard p:last-child {
+    margin-bottom: 0
+    ;
+}
