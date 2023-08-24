@@ -1,0 +1,62 @@
+.filterDropdown {
+    position: relative;
+}
+
+.filterDropdown>button {
+    background: transparent !important;
+    padding: 8px 15px;
+    border: 0;
+    color: #3B3C3B !important;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #B9B9B9 !important;
+    gap: 8px;
+    height: 44px;
+    transition: 0.4s all ease;
+}
+
+.filterDropdown>button svg {
+    font-size: 24px;
+    line-height: 1;
+    color: #404040;
+}
+
+.filterDropdown button::after {
+    display: none;
+}
+
+.filterDropdown .dropdownMenu {
+    min-width: 100%;
+    background: #ffffff;
+    border: 0;
+    left: auto !important;
+    right: 0 !important;
+    margin: 5px 0 !important;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+    padding: 8px;
+}
+
+.filterDropdown .dropdownMenu button {
+    color: #3B3C3B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; 
+    padding: 4px 8px;
+    background: transparent !important;
+    transition: 0.4s all ease;
+    margin-bottom: 8px;
+}
+
+.filterDropdown .dropdownMenu button:last-child {
+    margin-bottom: 0;
+}
+
+.filterDropdown .dropdownMenu button:hover {
+    color: #fff;
+    background: #333366 !important;
+}

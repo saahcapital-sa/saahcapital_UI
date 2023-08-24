@@ -107,19 +107,22 @@
 
 .status.accepted,
 .status.open,
-.status.complete {
+.status.complete,
+.status.active {
     color: #35B876;
     background: #DCF6EA;
 }
 
 .status.rejected,
-.status.closed {
+.status.closed,
+.status.inactive {
     color: #E20000;
     background: #FAE4E4;
 }
 
 .status.progress,
-.status.incomplete {
+.status.incomplete,
+.status.pending {
     color: #F8931E;
     background: #FFEDD8;
     height: auto;
@@ -226,4 +229,34 @@
     font-weight: 500;
     line-height: 16px; 
     display: block;
+}
+
+.actionBtns {
+    display: flex;
+    justify-content: center;
+    column-gap: 12px;
+}
+
+.actionBtns button, 
+.actionBtns a {
+    padding: 0;
+    background: transparent !important;
+    border: 0;
+    outline: unset !important;
+}
+
+.actionBtns button svg, 
+.actionBtns a svg {
+    font-size: 24px;
+    color: inherit;
+}
+
+.actionBtns button.actionEditBtn,
+.actionBtns a.actionEditBtn {
+    color: #333366 !important;
+}
+
+.actionBtns button.actionDeleteBtn,
+.actionBtns a.actionDeleteBtn {
+    color: #3B3C3B !important;
 }

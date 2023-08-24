@@ -57,7 +57,7 @@ const History = () => {
                 />
                 <div className="dashboardContent">
                     <div className="settingWrap">
-                        <h4>History</h4>
+                        <h3>History</h3>
                         <div className="settingRow">
                             <div className="settingSidebarCol">
                                 <SettingSidebar />
@@ -77,7 +77,7 @@ const History = () => {
                                         <h3>Today History</h3>
                                     </div>
                                     <ul className="notifications-list">
-                                        {notiHistoryData.map(item => <li key={item.name}>
+                                        {notiHistoryData.map((item, index) => <li key={index}>
                                             <div className="notiImg">
                                                 {item.image ? <Image src={item.image} /> : <span>{item.shortName}</span>}
                                             </div>
@@ -94,7 +94,7 @@ const History = () => {
                                         <h3>Yesterday History</h3>
                                     </div>
                                     <ul className="notifications-list">
-                                        {notiHistoryData.map(item => <li key={item.name}>
+                                        {notiHistoryData.map((item, index) => <li key={index}>
                                             <div className="notiImg">
                                                 {item.image ? <Image src={item.image} /> : <span>{item.shortName}</span>}
                                             </div>

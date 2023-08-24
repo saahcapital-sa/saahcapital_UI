@@ -3,7 +3,6 @@ import React from 'react'
 import { Button, Image, Dropdown } from 'react-bootstrap'
 import { BiGridAlt } from 'react-icons/bi';
 import { MdOutlineAdminPanelSettings, MdOutlineAccountBalanceWallet, MdLogout, MdUnfoldLess } from 'react-icons/md';
-import {FiChevronDown} from 'react-icons/fi';
 import {IoSettingsOutline} from 'react-icons/io5';
 import {FaRegUser} from 'react-icons/fa';
 import { useRouter } from 'next/router';
@@ -23,13 +22,13 @@ const Sidebar = ({foldSidebar, setFoldSidebar}) => {
                     <Link href="/" className={router.pathname === '/' ? 'active' : ''}>
                         <BiGridAlt /> Dashboard
                     </Link>
-                    <Link href="/addFund" className={router.pathname === '/addFund' ? 'active' : ''}>
+                    <Link href="/addFund" className={router.pathname === '/addFund' || router.pathname === '/manageFund' || router.pathname === '/fundDetails' || router.pathname === '/editFund' ? 'active' : ''}>
                         <MdOutlineAdminPanelSettings />Funds Administrative
                     </Link>
-                    <Link href="/fundRequest" className={router.pathname === '/fundRequest' ? 'active' : ''}>
+                    <Link href="/fundRequests" className={router.pathname === '/fundRequests' || router.pathname === '/viewFundRequests' ? 'active' : ''}>
                         <FaRegUser /> Fund Request
                     </Link>
-                    <Link href="/client" className={router.pathname === '/client' ? 'active' : ''}>
+                    <Link href="/clients" className={router.pathname === '/clients' || router.pathname === '/clientsDetails' || router.pathname === '/transactionHistory' ? 'active' : '' }>
                         <FaRegUser /> Client Database
                     </Link>
                     {/* <Dropdown className={router.pathname === '/fundWallet' ? 'active' : '' || router.pathname === '/overview' ? 'active' : ''}>
@@ -41,10 +40,10 @@ const Sidebar = ({foldSidebar, setFoldSidebar}) => {
                             <Dropdown.Item href="/overview" className={router.pathname === '/overview' ? 'active' : ''}>Overview</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown> */}
-                    <Link href="/wallet" className={router.pathname === '/wallet' ? 'active' : ''}>
+                    <Link href="/wallet" className={router.pathname === '/wallet'  || router.pathname === '/transactionDetails' ? 'active' : ''}>
                         <MdOutlineAccountBalanceWallet />Wallet
                     </Link>
-                    <Link href="/profile" className={router.pathname === '/profile' ? 'active' : ''}>
+                    <Link href="/profile" className={router.pathname === '/profile' || router.pathname === '/support' || router.pathname === '/viewSupport' || router.pathname === '/history' || router.pathname === '/securityPrivacy' || router.pathname === '/termCondition' ? 'active' : ''}>
                         <IoSettingsOutline/> Settings
                     </Link>
                 </div>

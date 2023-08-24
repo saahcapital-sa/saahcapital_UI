@@ -3,7 +3,7 @@ import Sidebar from "../components/Sidebar";
 import DashboardHeader from "../components/DashboardHeader";
 import AddNewFund from "../components/AddNewFund";
 
-const ManageFund = () => {
+const AddFund = () => {
     const [foldSidebar, setFoldSidebar] = useState(false)
     const className = foldSidebar ? 'sidebar-close' : '';
     return (
@@ -30,4 +30,4 @@ const ManageFund = () => {
     )
 }
 
-export default ManageFund 
+export default AddFund 

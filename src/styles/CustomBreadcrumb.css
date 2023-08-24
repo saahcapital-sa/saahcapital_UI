@@ -1,0 +1,33 @@
+.customBreadcrumb {
+    margin-bottom: 24px;
+}
+
+.customBreadcrumb .breadcrumb {
+    margin-bottom: 0;
+}
+
+.customBreadcrumb svg {
+    font-size: 20px;
+    margin: 0 6px;
+}
+
+.customBreadcrumb .breadcrumb-item a {
+    color: #3B3C3B;
+    font-family: "Readex Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    text-transform: capitalize;
+}
+
+.customBreadcrumb .breadcrumb-item+.breadcrumb-item {
+    padding-left: 0;
+}
+
+.customBreadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    display: none;
+}
+
+.customBreadcrumb .breadcrumb-item:last-child a {
+    color: #333366;
+}

@@ -1,0 +1,88 @@
+.kycForm {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.moreInfo {
+    border-radius: 6px;
+    background: #FFF;
+    padding: 24px 24px 32px;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+    margin-bottom: 24px;
+}
+
+.moreInfo h4 {
+    display: flex;
+    align-items: flex-start;
+    color: #3B3C3B;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.moreInfo h4 img {
+    margin-top: 3px;
+}
+
+.accordionWrap.moreInfo {
+    padding-bottom: 24px;
+}
+
+.accordion .accordion-item {
+    border-radius: 10px;
+    border: 1px solid #B9B9B9;
+    background: #FFF;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.accordion .accordion-item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion .accordion-item .accordion-header button.collapsed {
+    color: #333366;
+}
+
+.accordion .accordion-item .accordion-header button {
+    color: #3B3C3B;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    padding: 23px;
+    background: transparent;
+    box-shadow: unset;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.accordion .accordion-item .accordion-header button::after {
+    display: none;
+}
+
+.accordion .accordion-item .accordion-header button svg {
+    font-size: 24px;
+    margin-left: auto;
+    color: #232323;
+}
+
+.accordion .accordion-item .accordion-header button.collapsed svg {
+    transform: rotate(180deg);
+    color: #333366;
+}
+
+.accordion .accordion-item .accordion-body {
+    padding: 0 23px 23px;
+}
+
+.accordion .accordion-item .accordion-body p {
+    color: #3B3C3B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}

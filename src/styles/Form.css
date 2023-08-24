@@ -3,6 +3,10 @@
     margin-bottom: 16px;
 }
 
+.customform:last-child {
+    margin-bottom: 0;
+}
+
 .customform label {
     color: #3B3C3B;
     font-family: "Readex Pro";
@@ -30,6 +34,7 @@
 .customform input.form-control[readonly] {
     background: #F5F5F5;
     border-color: #F5F5F5;
+    color: #8C8C8C;
     pointer-events: none;
 }
 
@@ -184,4 +189,9 @@
     border-radius: 0 6px 6px 0;
     padding-left: 0;
     width: calc(100% - 101px);
+}
+
+.addRowBtn {
+    display: flex;
+    align-items: flex-end;
 }

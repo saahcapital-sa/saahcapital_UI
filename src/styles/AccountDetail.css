@@ -1,0 +1,49 @@
+.accountDetail {
+    border-radius: 6px;
+    background: #FFF;
+    padding: 24px;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+    margin-bottom: 24px;
+}
+
+.accountDetailHeading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.accountDetailHeading .status {
+    min-width: unset;
+}
+
+.accountDetailContent {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.accountDetailImg {
+    text-align: center;
+}
+
+.accountDetailImg img {
+    width: 168px;
+    height: 168px;
+    border-radius: 50px;
+    margin: 0 auto 20px;
+}
+
+.accountDetailContent .general-tranparent-btn {
+    border: 1px solid #CDD2E1 !important;
+    font-family: "Inter";
+    font-weight: 400;
+    text-align: left;
+    padding: 0 12px;
+    justify-content: space-between;
+}
+
+.accountDetailContent .general-tranparent-btn svg {
+    font-size: 20px;
+}

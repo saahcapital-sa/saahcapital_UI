@@ -1,15 +1,15 @@
 import React, {useState} from 'react';
 import { Form } from 'react-bootstrap'
-import { useTable, useRowSelect, usePagination, useGlobalFilter, useSortBy } from 'react-table';
+import { useTable, useFilters, useRowSelect, usePagination, useGlobalFilter, useSortBy } from 'react-table';
 import { BiSearch } from 'react-icons/bi'
 import {FiChevronDown} from 'react-icons/fi';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import ReactPaginate from 'react-paginate';
 import SortDropdown from '../components/SortDropdown';
 import DownloadDropdown from '../components/DownloadDropdown';
+import FilterDropdown from "../components/FilterDropdown";
 
-
-const DataTable = ({ columns, data, search, downloadDropdown, sortby, filter, pagination, perpage }) => {  
+const DataTable = ({ columns, data, search, downloadDropdown, sortby, filter, filterArray, pagination, perpage }) => {  
   const [totalCount, setTotalCount] = useState(data.length);
 
   const {
@@ -29,6 +29,7 @@ const DataTable = ({ columns, data, search, downloadDropdown, sortby, filter, pa
     canPreviousPage,
     pageCount,
     gotoPage,
+    setFilter,
     setPageSize,
   } = useTable(
     {
@@ -36,6 +37,7 @@ const DataTable = ({ columns, data, search, downloadDropdown, sortby, filter, pa
       data,
     },
     useGlobalFilter,
+    useFilters,
     useSortBy,
     usePagination,
     useRowSelect,
@@ -79,6 +81,7 @@ const DataTable = ({ columns, data, search, downloadDropdown, sortby, filter, pa
           />
         </div>}
         <div className='tableFilter'>
+          {filter && <FilterDropdown filterArray={filterArray} />}
           {sortby && <SortDropdown />}
           {downloadDropdown && <DownloadDropdown />}
         </div>

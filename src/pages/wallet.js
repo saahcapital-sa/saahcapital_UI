@@ -11,6 +11,7 @@ import { BsThreeDotsVertical } from 'react-icons/bs';
 import { FiEye } from 'react-icons/fi';
 import { MdOutlineEdit , MdDeleteOutline, MdOutlineAccountBalanceWallet } from 'react-icons/md';
 import { RxCopy } from 'react-icons/rx';
+
 const columns = [
     {
       Header: 'Transaction ID',
@@ -275,6 +276,7 @@ const Wallet = () => {
                 downloadDropdown = {true}
                 sortby = {true}
                 filter = {true}
+                filterArray = {["Complete" , "Incomplete"]}
                 pagination = {true}
                 perpage = {true}
               />

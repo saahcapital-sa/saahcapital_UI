@@ -41,7 +41,8 @@
 }
 
 .lineChart,
-.pieChart {
+.pieChart,
+.progressChart {
     padding: 20px;
     border-radius: 6px;
     background: #FFF;
@@ -52,13 +53,12 @@
     justify-content: space-between;
 }
 
-.lineChart h2,
-.pieChart h2 {
-    color: #3B3C3B;
-    font-family: "Readex Pro";
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 28px;
+.progressChart .progressChartHeading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
 }
 
 .fundRequestsWrap {

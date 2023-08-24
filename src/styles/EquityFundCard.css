@@ -1,0 +1,127 @@
+.equityFundCard {
+    border-radius: 10px;
+    background: #FFF;
+    padding: 26px 27px 26px 10px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.equityFundHeading {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.equityFundHeading img {
+    width: 84px;
+    height: 84px;
+    border-radius: 84px;
+}
+
+.equityFundHeadingInner {
+    width: calc(100% - 84px);
+}
+
+.equityFundHeadingInner h3 {
+    margin-bottom: 16px;
+}
+
+.equityFundHeadingInner ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.equityFundHeadingInner ul li {
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: #F5F5F5;
+}
+
+.equityFundContent {
+    text-align: right;
+    padding-top: 8px;
+}
+
+.equityFundContent .valuationDate {
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: #F5F5F5;
+    margin-bottom: 28px;
+    display: inline-block;
+}
+
+.equityFundContent ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    column-gap: 28px;
+}
+
+.equityFundContent ul li {
+    padding: 0 16px;
+}
+
+.equityFundContent ul li.unitPrice {
+    text-align: left;
+}
+
+.unitPrice p,
+.unitPrice h3 span {
+    color: #9E9E9E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.unitPrice p {
+    margin-bottom: 10px;
+}
+
+.unitPrice h3 {
+    color: #404040;
+    font-family: "Readex Pro";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.profitYTD p {
+    color: #9E9E9E;
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.profitYTD p span {
+    color: #43936C;
+}
+
+.profitYTD h3 {
+    color: #43936C;
+    font-family: "Readex Pro";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.profitYTD h3 svg {
+    font-size: 20px;
+    color: #43936C;
+    margin-right: 6px;
+}

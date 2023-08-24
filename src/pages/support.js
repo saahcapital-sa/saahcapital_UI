@@ -195,6 +195,8 @@ const data = [
   }
 ];
 
+const filterArray =[{status: "Complete"} , {status: "incomplete"}]
+
 const Support = () => {
     const [foldSidebar, setFoldSidebar] = useState(false);
     const [tagStatus, setTagStatus] = useState("open");
@@ -225,6 +227,7 @@ const Support = () => {
                                         downloadDropdown = {false}
                                         sortby = {false}
                                         filter = {true}
+                                        filterArray = {["Open" , "Close", "Pending"]}
                                         pagination = {false}
                                         perpage = {false}
                                     />

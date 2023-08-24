@@ -1,0 +1,94 @@
+.aboutFund {
+    border-radius: 10px;
+    background: #FFF;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.aboutFund span {
+    color:  #616161;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;    
+    padding: 2px 6px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    background: #F5F5F5;
+    display: inline-block;
+}
+
+.aboutFund p {
+    padding: 10px;
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.proformanceChartCard {
+    position: relative;
+    border-radius: 6px;
+    background:  #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(163, 163, 163, 0.20);
+    padding: 24px 24px 60px;
+}
+
+.proformanceChartCard h5 {
+    color: #404040;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.65;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    margin-bottom: 66.7px;
+}
+
+.progressChartHeading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 31px 0 52px;
+    gap: 30px;
+    margin-bottom: 93.5px;
+}
+
+.todayReport h4 .nav {
+    font-family: "Readex Pro";
+    font-size: 22.6px;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding: 6.13px;
+    background: #F7F7F7;
+    color: #9E9E9E;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.todayReport h4 {
+    color: #404040;
+    font-family: "Readex Pro";
+    font-size: 22.6px;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-bottom: 8.3px;
+}
+
+.todayReport h4 span {
+    color: #757575;
+    font-size: 16.5px;
+    font-weight: 500;
+    line-height: 24.7px;
+}
+
+.todayReport p {
+    color:  #35B876;
+    font-family: "Readex Pro";
+    font-size: 16.5px;
+    font-weight: 500;
+    line-height: 24.7px;
+}
+
+.proformanceChart {
+    padding: 0 31px 0 52px;
+}
