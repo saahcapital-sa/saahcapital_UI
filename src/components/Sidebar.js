@@ -3,9 +3,10 @@ import React from 'react'
 import { Button, Image, Dropdown } from 'react-bootstrap'
 import { BiGridAlt } from 'react-icons/bi';
 import { MdOutlineAdminPanelSettings, MdOutlineAccountBalanceWallet, MdLogout, MdUnfoldLess } from 'react-icons/md';
-import {IoSettingsOutline} from 'react-icons/io5';
-import {FaRegUser} from 'react-icons/fa';
+import { IoSettingsOutline } from 'react-icons/io5';
+import { TbCoins } from 'react-icons/tb';
 import { useRouter } from 'next/router';
+import { LiaNewspaper } from 'react-icons/lia';
 
 const Sidebar = ({foldSidebar, setFoldSidebar}) => {
     const router = useRouter();
@@ -26,20 +27,11 @@ const Sidebar = ({foldSidebar, setFoldSidebar}) => {
                         <MdOutlineAdminPanelSettings />Funds Administrative
                     </Link>
                     <Link href="/fundRequests" className={router.pathname === '/fundRequests' || router.pathname === '/viewFundRequests' ? 'active' : ''}>
-                        <FaRegUser /> Fund Request
+                        <LiaNewspaper /> Fund Request
                     </Link>
                     <Link href="/clients" className={router.pathname === '/clients' || router.pathname === '/clientsDetails' || router.pathname === '/transactionHistory' ? 'active' : '' }>
-                        <FaRegUser /> Client Database
+                        <TbCoins /> Client Database
                     </Link>
-                    {/* <Dropdown className={router.pathname === '/fundWallet' ? 'active' : '' || router.pathname === '/overview' ? 'active' : ''}>
-                        <Dropdown.Toggle>
-                            <MdOutlineAccountBalanceWallet />Wallet <FiChevronDown/>
-                        </Dropdown.Toggle>
-                        <Dropdown.Menu>
-                            <Dropdown.Item href="/fundWallet" className={router.pathname === '/fundWallet' ? 'active' : ''}>Fund Wallet</Dropdown.Item>
-                            <Dropdown.Item href="/overview" className={router.pathname === '/overview' ? 'active' : ''}>Overview</Dropdown.Item>
-                        </Dropdown.Menu>
-                    </Dropdown> */}
                     <Link href="/wallet" className={router.pathname === '/wallet'  || router.pathname === '/transactionDetails' ? 'active' : ''}>
                         <MdOutlineAccountBalanceWallet />Wallet
                     </Link>
