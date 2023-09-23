@@ -32,7 +32,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5px;
-    background: #333366;
+    background: #37156D;
 }
 
 .chatHeaderContent {
@@ -97,7 +97,7 @@
 
 .chatBox::-webkit-scrollbar-thumb {
 	border-radius: 10px;
-	background-color: #333366;
+	background-color: #37156D;
 }
 
 
@@ -226,7 +226,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #333366 !important; 
+    background: #37156D !important; 
     border: 0;
     box-shadow: unset !important;
 }

@@ -1,5 +1,5 @@
 .splash-wrap {
-    background: #333366;    
+    background: #37156D;    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +9,9 @@
 }
 
 .splash-wrap .logo-img {
-    max-width: 412px;
+    position: relative;
+    z-index: 1;
+    max-width: 192px;
 }
 
 .splash-wrap .palm-img {
@@ -18,4 +20,15 @@
     bottom: 0;
     width: 380px;
     height: 300px;
+}
+
+.splash-wrap::before {
+    content: "";
+    background: url(../../public/images/splash-bg.png) top right no-repeat;
+    background-size: contain;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }

@@ -7,7 +7,7 @@ const CheckMail = () => {
     return (
         <div className='forgotWrap checkMail'>
             <Link href="/" className="logoImg">
-                <Image src="images/sbd-logo-blue.png" className='sbd-logo' />
+                <Image src="images/saah-financial-logo.svg" className='sbd-logo' />
             </Link>
             <div className='signFormCard'>
                 <Image src="images/mail-icon.svg" className='cardIcon' />

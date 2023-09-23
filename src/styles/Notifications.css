@@ -36,7 +36,7 @@
 .notification-wrap .notification-heading h3::before {
     content: "";
     border-radius: 4px;
-    background: #333366;
+    background: #37156D;
     height: calc(100% - 4px);
     width: 6px;
     top: 2px;
@@ -100,7 +100,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    background: #333366;
+    background: #37156D;
 }
 
 .notifications-list li .notiContent {

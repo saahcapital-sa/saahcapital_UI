@@ -1,5 +1,5 @@
 .sidebar {
-    background: #333366;
+    background: #37156D;
     width: 264px;
     height: 100vh;
     overflow-y: auto;
@@ -150,13 +150,13 @@
 .dashboardLink a:hover,
 .dashboardLink a.active,
 .dashboardLink .dropdown button:hover {
-    color: #333366;
+    color: #37156D;
     background: #fff;
 }
 
 .dashboardLink .dropdown.active button,
 .dashboardLink .dropdown button:active {
-    color: #333366;
+    color: #37156D;
 }
 
 .dashboardLink .dropdown .dropdown-menu {
@@ -191,7 +191,7 @@
 
 .dashboardLink .dropdown .dropdown-menu a.active,
 .dashboardLink .dropdown .dropdown-menu a:hover {
-    color: #333366;
+    color: #37156D;
     background: #fff;
     border-left-color: #fff;
 }

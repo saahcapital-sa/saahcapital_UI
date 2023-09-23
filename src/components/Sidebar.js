@@ -15,7 +15,7 @@ const Sidebar = ({foldSidebar, setFoldSidebar}) => {
         <div className='sidebar'>
             <div className='sidebarInner'>
                 <Link href="/" className='sidebarLogo'>
-                    {foldSidebar ?  <Image src="images/sbd-mini-logo.svg" className='miniLogo' /> : <Image src="images/sbd-logo.png" className='logo' />}
+                    {foldSidebar ?  <Image src="images/saah-financial-logo-small.svg" className='miniLogo' /> : <Image src="images/saah-financial-logo-white.svg" className='logo' />}
                 </Link>
                 <Button className='foldSidebar' onClick={() => {setFoldSidebar(!foldSidebar)}}><MdUnfoldLess /></Button>
                 <h6>Menu</h6>

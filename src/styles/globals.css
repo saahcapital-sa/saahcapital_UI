@@ -208,8 +208,8 @@ input[type=number] {
 .general-btn {
   border-radius: 6px;
   padding: 5px 15px;
-  background: #333366;
-  border: 1px solid #333366 !important;
+  background: #37156D;
+  border: 1px solid #37156D !important;
   height: 44px;
   width: 100%;
   color: #FFF;
@@ -232,7 +232,7 @@ input[type=number] {
 
 .general-btn:hover {
   background: transparent !important;
-  color: #333366 !important;
+  color: #37156D !important;
 }
 
 .tranparent-gray-btn {
@@ -260,10 +260,10 @@ input[type=number] {
   border-radius: 6px;
   padding: 5px 15px;
   background: transparent !important;
-  border: 1px solid #333366 !important;
+  border: 1px solid #37156D !important;
   height: 44px;
   width: 100%;
-  color: #333366 !important;
+  color: #37156D !important;
   text-align: center;
   font-family: "Readex Pro";
   font-size: 16px;
@@ -282,7 +282,7 @@ input[type=number] {
 }
 
 .general-tranparent-btn:hover {
-  background: #333366 !important;
+  background: #37156D !important;
   color: #fff !important;
 }
 

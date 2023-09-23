@@ -35,7 +35,7 @@
     border-radius: 8px 0 0 8px;
     width: 81px;
     height: 100%;
-    background: #333366;
+    background: #37156D;
     top: 0;
     left: 0;
     position: absolute;
@@ -121,6 +121,6 @@
 .editProfileCard > .editProfileBtn svg {
     font-size: 20px;
     margin-right: 8px;
-    color: #333366;
+    color: #37156D;
     margin-top: 1px;
 }

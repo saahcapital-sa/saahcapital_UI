@@ -132,7 +132,7 @@
     padding: 0;
     border: 0;
     outline: unset;
-    color: #333366;
+    color: #37156D;
     box-shadow: unset !important;
     background: transparent !important;
 }
@@ -176,7 +176,7 @@
 .actionsDropdown .dropdown-menu button:hover,
 .actionsDropdown .dropdown-menu button:active  {
     color: #ffffff;
-    background: #333366 !important;
+    background: #37156D !important;
 }
 
 .actionsDropdown .dropdown-menu a:hover svg,
@@ -224,7 +224,7 @@
 }
 
 .totalEntries span {
-    color: #333366;
+    color: #37156D;
     font-size: 12px;
     font-weight: 500;
     line-height: 16px; 
@@ -253,7 +253,7 @@
 
 .actionBtns button.actionEditBtn,
 .actionBtns a.actionEditBtn {
-    color: #333366 !important;
+    color: #37156D !important;
 }
 
 .actionBtns button.actionDeleteBtn,

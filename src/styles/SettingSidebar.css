@@ -34,7 +34,7 @@
 }
 
 .settingSidebar li a.active {
-    color: #333366;
+    color: #37156D;
 }
 
 .settingSidebar li a::before {
@@ -49,5 +49,5 @@
 }
 
 .settingSidebar li a.active::before  {
-    background: #333366;
+    background: #37156D;
 }

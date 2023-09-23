@@ -43,7 +43,7 @@
 }
 
 .accordion .accordion-item .accordion-header button.collapsed {
-    color: #333366;
+    color: #37156D;
 }
 
 .accordion .accordion-item .accordion-header button {
@@ -73,7 +73,7 @@
 
 .accordion .accordion-item .accordion-header button.collapsed svg {
     transform: rotate(180deg);
-    color: #333366;
+    color: #37156D;
 }
 
 .accordion .accordion-item .accordion-body {

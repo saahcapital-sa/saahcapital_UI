@@ -44,7 +44,7 @@
 
 .customform input.form-control:focus,
 .customform select.form-select:focus {
-    border-color: #333366;
+    border-color: #37156D;
     box-shadow: unset;
 }
 
@@ -75,12 +75,12 @@
     margin-top: 2px;
     border-radius: 3px;
     box-shadow: unset;
-    border-color: #333366;
+    border-color: #37156D;
 }
 
 .customform .form-check .form-check-input:checked {
-    background-color: #333366;
-    border-color: #333366;
+    background-color: #37156D;
+    border-color: #37156D;
 }
 
 .customform .form-check label {
@@ -143,7 +143,7 @@
 }
 
 .selectCountryCode .countryCode button:focus {
-    border-color: #333366;
+    border-color: #37156D;
 }
 
 .selectCountryCode .countryCode button img {
@@ -171,7 +171,7 @@
 }
 
 .selectCountryCode .countryCode .dropdown-menu a.active {
-    background: #333366;
+    background: #37156D;
     color: #FFF;
 }
 

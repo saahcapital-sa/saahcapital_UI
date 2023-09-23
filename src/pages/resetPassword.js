@@ -7,7 +7,7 @@ const ResetPassword = () => {
     return (
         <div className='forgotWrap checkMail resetPassword'>
             <Link href="/" className="logoImg">
-                <Image src="images/sbd-logo-blue.png" className='sbd-logo' />
+                <Image src="images/saah-financial-logo.svg" className='sbd-logo' />
             </Link>
             <div className='signFormCard'>
                 <Image src="images/check-icon.svg" className='cardIcon' />

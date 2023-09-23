@@ -3,7 +3,7 @@
 }
 
 .downloadDropdown>button {
-    background: #333366!important;
+    background: #37156D!important;
     padding: 9.2px 14px;
     border: 0;
     color: #ffffff !important;
@@ -14,18 +14,18 @@
     display: flex;
     align-items: center;
     border-radius: 6px;
-    border: 1px solid #333366 !important;
+    border: 1px solid #37156D !important;
     gap: 10px;
     transition: 0.4s all ease;
 }
 
 .downloadDropdown>button:hover {
     background: transparent !important;
-    color: #333366 !important;
+    color: #37156D !important;
 }
 
 .downloadDropdown>button:hover svg:last-child {
-    border-left-color: #333366!important;
+    border-left-color: #37156D!important;
 }
 
 .downloadDropdown>button svg {
@@ -69,5 +69,5 @@
 
 .downloadDropdown .dropdownMenu button:hover {
     color: #fff;
-    background: #333366 !important;
+    background: #37156D !important;
 }
